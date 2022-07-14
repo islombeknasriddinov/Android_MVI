@@ -1,4 +1,4 @@
-package com.pdp.demo_mvi.network
+package com.example.android_mvi.network
 
 import com.example.android_mvi.network.service.PostService
 import retrofit2.Retrofit
