@@ -9,7 +9,7 @@ import android.widget.LinearLayout
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.example.android_mvi.R
-import com.example.android_mvi.activity.MainActivity
+import com.example.android_mvi.activity.main.MainActivity
 import com.example.android_mvi.model.Post
 import com.example.android_mvi.utils.Utils
 

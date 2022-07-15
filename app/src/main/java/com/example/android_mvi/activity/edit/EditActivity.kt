@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.util.Log
 import android.widget.Button
 import android.widget.EditText
+import android.widget.ImageView
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.lifecycleScope
 import com.example.android_mvi.R
@@ -59,7 +60,7 @@ class EditActivity : AppCompatActivity() {
 
         val edt_title = findViewById<EditText>(R.id.edt_title)
         val edt_body = findViewById<EditText>(R.id.edt_message)
-        val b_update = findViewById<Button>(R.id.b_update_post)
+        val b_update = findViewById<ImageView>(R.id.b_update_post)
         var post: Post = intent.getSerializableExtra("post") as Post
         edt_title.setText(post.title)
         edt_body.setText(post.body)

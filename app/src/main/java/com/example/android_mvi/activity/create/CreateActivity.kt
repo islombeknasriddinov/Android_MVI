@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.util.Log
 import android.widget.Button
 import android.widget.EditText
+import android.widget.ImageView
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.lifecycleScope
 import com.example.android_mvi.R
@@ -16,6 +17,7 @@ import com.example.android_mvi.network.RetrofitBuilder
 import com.example.android_mvi.activity.create.helper.CreateHelperImpl
 import com.example.android_mvi.activity.create.intenstate.CreateState
 import com.example.android_mvi.activity.create.viewModel.CreateViewModelFactory
+import com.google.android.material.floatingactionbutton.FloatingActionButton
 import kotlinx.coroutines.launch
 
 class CreateActivity : AppCompatActivity() {
@@ -61,7 +63,7 @@ class CreateActivity : AppCompatActivity() {
 
         val edt_title = findViewById<EditText>(R.id.edt_title)
         val edt_body = findViewById<EditText>(R.id.edt_message)
-        val b_create = findViewById<Button>(R.id.b_create_post)
+        val b_create = findViewById<ImageView>(R.id.b_create_post)
 
         b_create.setOnClickListener {
             if (edt_title.text.isNotEmpty() && edt_body.text.isNotEmpty()){
