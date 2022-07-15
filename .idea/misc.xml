@@ -3,7 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/Asus/AndroidStudioProjects/Android_MVI/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/Android_MVI/app/src/main/res/drawable-v24/ic_add_black.xml" value="0.1415" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/Android_MVI/app/src/main/res/layout/activity_create.xml" value="0.20854700854700856" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/Android_MVI/app/src/main/res/layout/activity_main.xml" value="0.2" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/Android_MVI/app/src/main/res/layout/activity_main2.xml" value="0.24010416666666667" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/Android_MVI/app/src/main/res/layout/item_post_list.xml" value="0.25416666666666665" />
       </map>
